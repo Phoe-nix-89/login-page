@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 95vh;
+            margin-top: 2vh;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(33, 33, 33);
+        }
+        .page{
+            /* border: 2px solid red; */
+            height: 92vh;
+            width: 35%;
+            margin-top: auto;
+            margin-bottom: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .page>div{
+            /* border: 2px solid green; */
+            width: 100%;
+            height: 13%;
+            display: flex;
+        }
+        .item1{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .sign{
+            /* border: 2px solid green; */
+            height: 70%;
+            width: 30%;
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .name{
+            /* border: 1px solid black; */
+            width: 90%;
+            height: 70%;
+        }
+        .item2 , .item4 , .item5 , .item6 , .item3{
+            justify-content: center;
+            align-items: end;
+        }
+        .txt1{
+            height: 40%;
+            /* border: 1px solid gray; */
+            font-size: 20px;
+            margin-bottom: 2px;
+        }
+
+        .ans{
+            height: 57%;
+            width: 100%;
+            /* border: 1px solid red; */
+        }
+        .in1{
+            width: 99%;
+            height: 85%;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        #cars{
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .item7{
+            justify-content: center;
+        }
+        .name2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .txt2{
+            height: 65%;
+            width: 100%;
+            font-size: 17px;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="content">
+        <div class="page">
+            <div class="item1">
+                <div class="sign">Signup</div>
+            </div>
+            <div class="item2">
+                <div class="name">
+                    <div class="txt1">Name:</div>
+                    <div class="ans">
+                        <input class="in1" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="name">
+                    <div class="txt1">Batch:</div>
+                    <div class="ans">
+                        <select name="cars" id="cars">
+                            <option value="volvo">Sigma 2.0</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="name">
+                    <div class="txt1">Age:</div>
+                    <div class="ans">
+                        <input class="in1" type="text"></div>
+                </div>
+            </div>
+            <div class="item5">
+                <div class="name">
+                    <div class="txt1">Email:</div>
+                    <div class="ans">
+                        <input class="in1" type="text"></div>
+                </div>
+            </div>
+            <div class="item6">
+                <div class="name">
+                    <div class="txt1">Password:</div>
+                    <div class="ans">
+                        <input class="in1" type="text"></div>
+                </div>
+            </div>
+            <div class="item7">
+                <div class="name name2">
+                    <button class="txt2">Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
